@@ -2,7 +2,7 @@
 Set up a blog based on w3schools design
 
 First run this
-mkdir w3schools
+mkdir -p static-html-directory/w3schools
 wget https://www.w3schools.com/w3images/woods.jpg && \
 wget https://www.w3schools.com/w3images/bridge.jpg && \
 wget https://www.w3schools.com/w3images/workshop.jpg && \ 
