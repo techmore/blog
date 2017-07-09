@@ -1,4 +1,5 @@
-# blog
+#!/bin/bash
+
 https://store.docker.com/images/nginx
 
 # Create Blog folder which has all posts and edited index file to push up to server
