@@ -1,5 +1,4 @@
 FROM nginx
-COPY static-html-directory /usr/share/nginx/html
 RUN apt-get update && apt-get install -y \
   wget sed \ 
 && mkdir -p /var/share/nginx/html/w3schools \
