@@ -15,7 +15,7 @@ RUN apt-get update && apt-get install -y \
 && wget https://www.w3schools.com/w3images/gondol.jpg \
 && wget https://www.w3schools.com/w3images/skies.jpg \
 && wget https://www.w3schools.com/w3images/rock.jpg \
-&& wget https://www.w3schools.com/w3images/avatar_g.jpg \
+&& wget https://www.w3schools.com/w3images/avatar_g.jpg
 
 
 
