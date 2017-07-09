@@ -6,8 +6,7 @@
 mkdir -p blog
 cd blog
 wget https://raw.githubusercontent.com/techmore/blog/master/index.html
-wget https://drive.google.com/open?id=0B4-3kJmbL6qNQS1NVHBWLWJXNkU
-mv open?id=0B4-3kJmbL6qNQS1NVHBWLWJXNkU techmore.png
+wget https://raw.githubusercontent.com/techmore/blog/master/techmore.png
 sed -i.bak s/"MY BLOG"/Techmore/g index.html
 sed -i.bak s/"Welcome to the blog of"//g index.html
 sed -i.bak s/unknown/"Get more\\!"/g index.html
