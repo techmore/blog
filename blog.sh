@@ -11,7 +11,7 @@ mv open?id=0B4-3kJmbL6qNQS1NVHBWLWJXNkU techmore.png
 sed -i.bak s/"MY BLOG"/Techmore/g index.html
 sed -i.bak s/"Welcome to the blog of"//g index.html
 sed -i.bak s/unknown/"Get more\\!"/g index.html
-sed -i.bak s/\/w3images\/avatar_g.jpg/techmore.png/g index.html
+sed -i s/\/w3images\/avatar_g.jpg/techmore.png/g index.html
 wget https://raw.githubusercontent.com/techmore/blog/master/july-2017.sh
 chmod 775 july-2017.sh
 ./july-2017.sh
