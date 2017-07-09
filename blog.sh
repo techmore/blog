@@ -14,6 +14,12 @@ sed -i.bak s/unknown/"Get more\\!"/g index.html
 sed -i.bak s/\/w3images\/avatar_g.jpg/techmore.png/g index.html
 cd ..
 
+wget https://raw.githubusercontent.com/techmore/blog/master/july-2017.sh
+chmod 775 july-2017.sh
+./july-2017.sh
+
+
+
 # CREATE DOCKER FILE
 cat <<EOF >> Dockerfile 
 FROM nginx
