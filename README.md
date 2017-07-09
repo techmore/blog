@@ -1,4 +1,6 @@
 # blog
+https://store.docker.com/images/nginx
+
 Set up a blog based on w3schools design
 
 First run this
