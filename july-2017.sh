@@ -17,4 +17,4 @@ sed -i.bak s/"Title description, "/"Creation of a reuseable blog, "/g index.html
 sed -i.bak s/"April 7, 2014"/"July 7, 2017"/g index.html
 
 # Content
-sed -i.bak s/"Mauris neque quam, fermentum ut nisl vitae."/"I hate Macish."/g
+sed -i.bak s/"Mauris neque quam."/"I hate Macish."/g
