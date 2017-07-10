@@ -23,9 +23,8 @@ cat <<EOF >> index.html
       <p>I Hate Macish</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <form action="July-9-2017.html">
-    <input type="submit" value="READ MORE" />
-        </form>
+          <<a href="July-9-2017.html" class="button">READ MORE</a>
+
         </div>
         <div class="w3-col m4 w3-hide-small">
           <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
