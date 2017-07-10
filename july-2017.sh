@@ -4,7 +4,7 @@
 
 # IMAGE TO REPLACE
 #blog.jpg
-https://raw.githubusercontent.com/techmore/blog/master/blog.jpg
+wget https://raw.githubusercontent.com/techmore/blog/master/blog.jpg
 sed -i.bak s=/w3images/woods.jpg=blog.jpg=g index.html
 
 # BLOG TITLE
