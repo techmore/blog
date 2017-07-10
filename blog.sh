@@ -11,7 +11,7 @@ sed -i.bak s/"MY BLOG"/Techmore/g index.html
 sed -i.bak s/"Welcome to the blog of"//g index.html
 sed -i.bak s/unknown/"Get more\\!"/g index.html
 sed -i.bak s=/w3images/avatar_g.jpg=techmore.png=g index.html
-sed -i.bak s/"My Name"/Techmore.co/g index.html
+sed -i.bak s/"My Name"/Techmore/g index.html
 sed -i.bak s/"I want to share my world with you."/"An effort to simplify the documentation of my efforts."/g index.html
 
 wget https://raw.githubusercontent.com/techmore/blog/master/july-2017.sh
