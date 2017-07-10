@@ -4,8 +4,7 @@
 
 # IMAGE TO REPLACE
 #blog.jpg
-wget https://cdn.pixabay.com/photo/2014/02/13/07/28/wordpress-265132_960_720.jpg
-mv wordpress-265132_960_720.jpg blog.jpg
+https://raw.githubusercontent.com/techmore/blog/master/blog.jpg
 sed -i.bak s=/w3images/woods.jpg=blog.jpg=g index.html
 
 # BLOG TITLE
