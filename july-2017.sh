@@ -23,7 +23,7 @@ cat <<EOF >> index.html
       <p>I Hate Macish</p>
       <div class="w3-row">
         <div class="w3-col m8 s12">
-          <<a href="July-9-2017.html" class="button">READ MORE</a>
+          <a href="July-9-2017.html" class="button"> READ MORE </a>
 
         </div>
         <div class="w3-col m4 w3-hide-small">
