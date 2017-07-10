@@ -48,10 +48,10 @@ cat <<EOF >> index.html
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card-2 w3-margin w3-margin-top">
-  <img src="/w3images/avatar_g.jpg" style="width:100%">
+  <img src="techmore.png" style="width:100%">
     <div class="w3-container w3-white">
-      <h4><b>My Name</b></h4>
-      <p>I want to share my world with you.</p>
+      <h4><b>Techmore</b></h4>
+      <p>An effort to document some projects.</p>
     </div>
   </div><hr>
   
