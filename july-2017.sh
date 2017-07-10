@@ -21,6 +21,9 @@ sed -i.bak s=/w3images/woods.jpg=blog.jpg=g index.html
 
 cat <<EOF >> index.html
 
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+
 <div class="w3-card-4 w3-margin w3-white">
     <img src="blog.jpg" alt="Nature" style="width:20%">
     <div class="w3-container">
