@@ -6,7 +6,7 @@
 #blog.jpg
 wget https://cdn.pixabay.com/photo/2014/02/13/07/28/wordpress-265132_960_720.jpg
 mv wordpress-265132_960_720.jpg blog.jpg
-sed -i.bak s/\/w3images\/woods.jpg/blog.jpg/g index.html
+sed -i.bak s=/w3images/woods.jpg=blog.jpg=g index.html
 
 # BLOG TITLE
 sed -i.bak s/"TITLE HEADING"/"Day 1 Blogging"/g index.html
