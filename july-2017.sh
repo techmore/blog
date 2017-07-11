@@ -3,7 +3,7 @@
 # IMAGE TO REPLACE
 #blog.jpg
 wget https://raw.githubusercontent.com/techmore/blog/master/blog.jpg
-wget https://raw.githubusercontent.com/techmore/blog/master/july-10-2017.jpg
+wget https://raw.githubusercontent.com/techmore/blog/master/july-10-2017.png
 
 sed -i.bak s=/w3images/woods.jpg=blog.jpg=g index.html
 
@@ -15,7 +15,7 @@ cat <<EOF >> index.html
 <div class="w3-col l8 s12">
 
 <div class="w3-card-4 w3-margin w3-white">
-    <img src="july-10-2017.jpg" alt="Nature" style="width:50%">
+    <img src="july-10-2017.png" alt="Nature" style="width:50%">
     <div class="w3-container">
       <h3><b>Creating a post</b></h3>
       <h5>Finally putting in content, <span class="w3-opacity">July 10, 2017</span></h5>
