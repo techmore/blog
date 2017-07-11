@@ -3,6 +3,8 @@
 # IMAGE TO REPLACE
 #blog.jpg
 wget https://raw.githubusercontent.com/techmore/blog/master/blog.jpg
+wget https://raw.githubusercontent.com/techmore/blog/master/july-10-2017.jpg
+
 sed -i.bak s=/w3images/woods.jpg=blog.jpg=g index.html
 
 cp index.html July-9-2017.html
